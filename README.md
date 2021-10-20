@@ -1,1 +1,0 @@
-# Ecomercer-jogos-Wesley-
