@@ -2,37 +2,95 @@
 :root{
 
     --branco: #fff;
+    --corPrin: #FFCA02;
     
+}
+@font-face {
+    font-family: "pacman" ;
+    src: url(../fonts/Gameplay.ttf);
+    font-weight: lighter;
 }
 *{
     margin: 0;
     padding: 0;
 }
 body{
-    font-family: Arial, sans-serif;
+    font-family: Arial;
+    background-image: url(../img/Retro\ PS\ Wallpaper.jpg);
 }
 #menu{
     width: 100%;
-    background-color: #000;
+    background-color: #241323;
     height: 25px;
     padding-top: 5px;
-    display: flex;
-    flex-direction: row;
 }
 
-.item-lista{
-    color: var(--branco);
-    text-decoration: none;
-    padding: 5px;
-    list-style: none;
+#menu>a{
+    padding: 0 3px;
+}
 
+
+.item{
+    color: var(--corPrin);
+    text-decoration: none;
+    padding: 10px;
+    list-style: none;
+    width: 20p;
+    font-size: 20px;
+}
+
+i{
+    padding: 8px;
+    color: var(--corPrin);
 }
 #titulo_principal{
     text-align: center;
-    font-size: 20px;
-    color: var(--branco) ;
+    font-size: 12px;
+    color: var(--corPrin) ;
     width: 100%;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.453);
-    padding: 5px;
+    height: 30px;
+    background-color: #241323;
+    padding: 10px 0;
+    font-family: "pacman";
+}
+
+#conteudo{
+    padding: 15px ;
+    background-color: var(--branco);
+    margin: auto;
+    width: 84%;
+    height: 100%;
+}
+
+#rodape{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    bottom: 0;
+    position: absolute;
+    background-color:#241323 ;
+}
+
+#rodape>a{
+    font-family: "pacman";
+    text-decoration: none;
+    color: var(--corPrin);
+    padding-top:10px;
+}
+
+#search{
+    text-align: right;
+    padding-left: 15%;
+    margin-left: 25%;
+}
+    
+
+
+.lista{
+    list-style: none;
+}
+.lista>li{
+    margin: 10px 0;
+    border: 1px solid #000;
+    padding: 10px;
 }
