@@ -80,7 +80,7 @@ i{
 #search{
     text-align: right;
     padding-left: 15%;
-    margin-left: 25%;
+    margin-left: 2%;
 }
     
 
@@ -162,4 +162,38 @@ i{
     border-radius: 4px;
     box-shadow: 3px 3px 5px rgb(0, 0, 0);
 
+}
+.recomendados{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.recomendados>li{
+    border: 1px solid #000;
+    width: 130px;
+    height: 130px;
+    margin-left: 5px;
+}
+#visualizar{
+    margin: auto;
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.61);
+}
+.visualiza_produto{
+    background-color: var(--branco);
+    margin: 10px;
+}
+.produtos_recomendados{
+    display: flex;
+    flex-direction: column;
+}
+.btnadiciona{
+    background-color: #110511;
+    color: var(--corPrin);
+    font-family: "pacman";
+    padding: 2%;
+}
+.titulo_produto2{
+    
+    font-family: "pacman";
 }
