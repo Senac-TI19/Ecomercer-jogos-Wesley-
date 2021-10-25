@@ -197,3 +197,31 @@ i{
     
     font-family: "pacman";
 }
+
+.carrinho>li{
+    background-color: #ffffffce;
+    margin-bottom: 10px;
+    width: 130px;
+    padding: 5%;
+    border-radius: 5px;
+}
+
+.titulo_pag{
+    font-family: "pacman";
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: var(--corPrin);
+    font-size: 17px;
+    padding: 3px ;
+}
+
+#chave{
+    background-color: #ffffff9e;
+    height: 90px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#chave>h3{
+    text-decoration: underline;
+    font-size: 20px;
+}
