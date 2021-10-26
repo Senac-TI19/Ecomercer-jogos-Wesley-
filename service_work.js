@@ -1,4 +1,4 @@
-const cachename= 'cache-app-v1'
+const cachename = 'cache-app-v1'
 
 const recursosChacheados = [
     "styles.css",
