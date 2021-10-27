@@ -15,22 +15,18 @@
 <body>
     
    
-    <nav id="menu">
-        <i class="fas fa-bars"></i>
-    </nav>
+    
 
     <header id="titulo_principal">
         <h1><em>GAME ZONE</em></h1>
     </header>
     
-    <main id="login">
+    <main id="compra">
         <article class="forma">
             <h1 class="titulo_pag">Forma de pagamento</h1>
-            <input type="radio" name="Radpag" checked>
-            <label for="M">Débito</label>
-            <input type="radio" name="Radpag">
-            <label for="F">Crédito</label>
-
+            <input type="number" name="cartao" id="cartao">
+            
+            <input  id="btnadiciona1" type="button" value="Finalizar Compra" onclick="chavealeatoria()">
         </article>
         <article>
             <h2 class="titulo_pag">produtos no carrinho</h2>
@@ -55,7 +51,10 @@
             </ul>
 
             <div id="chave">
+
                 <h3>Chave de ativação</h3>
+
+                <p id="key"></p>
 
             </div>
         </article>

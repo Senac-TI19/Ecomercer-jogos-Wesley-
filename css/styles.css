@@ -81,7 +81,8 @@ i{
 #search{
     text-align: right;
     padding-left: 15%;
-    margin-left: 2%;
+    margin-left: 35%;
+    
 }
     
 
@@ -150,6 +151,13 @@ i{
     font-family: "pacman";
     padding: 2%;
 }
+
+#btnadiciona{
+    background-color: #110511;
+    color: var(--corPrin);
+    font-family: "pacman";
+    padding: 2%;
+}
 .titulo_produto2{
     
     font-family: "pacman";
@@ -186,4 +194,9 @@ i{
 .lista>li>a{
     text-decoration: none;
     color: var(--branco);
+}
+#compra{
+    background-color: #8080808a;
+    width: 300px;
+    margin: auto;
 }

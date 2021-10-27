@@ -11,5 +11,12 @@ if('serviceWorker' in  navigator){
         })
     })
 }
+let gerachave = document.querySelector("btnadiciona1")
 
+let chave = document.querySelector('key')
 
+function chavealeatoria(){
+
+   chave.innerHTML = Math.random(15)
+    
+}
