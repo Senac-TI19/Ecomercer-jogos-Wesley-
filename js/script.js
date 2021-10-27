@@ -17,7 +17,6 @@ let chave = document.querySelector('#key')
 
 let cartao = document.querySelector('#cartao')
 
-gerachave.addEventListener("Click", chavealeatoria())
 
 function chavealeatoria(){
 
