@@ -11,12 +11,21 @@ if('serviceWorker' in  navigator){
         })
     })
 }
-let gerachave = document.querySelector("btnadiciona1")
+let gerachave = document.querySelector("#gerachave")
 
-let chave = document.querySelector('key')
+let chave = document.querySelector('#key')
+
+let cartao = document.querySelector('#cartao')
+
+gerachave.addEventListener("Click", chavealeatoria())
 
 function chavealeatoria(){
 
-   chave.innerHTML = Math.random(15)
+    if(cartao.value.length < 15){
+        window.alert('Erro! faltam digitos')
+    }else{
+        chave.innerHTML = "<strong>cUFSqRdqG8BAM2uzY9UMbgE8rfc</strong>"
+    }
     
 }
+

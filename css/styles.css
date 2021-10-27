@@ -197,6 +197,19 @@ i{
 }
 #compra{
     background-color: #8080808a;
-    width: 300px;
+    width: 325px;
     margin: auto;
+    height: 100%;
+    padding: 10px;
+}
+#gerachave{
+    padding: 5px;
+    border: none;
+    box-shadow: 3px 3px 9px #000;
+    background-color: #2b172b;
+    color:var(--corPrin);
+}
+#cartao{
+    padding: 5px;
+    width: 190px;
 }
