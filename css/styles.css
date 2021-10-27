@@ -68,6 +68,23 @@ i{
     text-align: center;
     bottom: 0;
     background-color: #110511;
+    position: fixed;
+}
+
+#rodape1{
+    width: 100%;
+    height: 20px;
+    text-align: center;
+    bottom: 0;
+    background-color: #110511;
+    position: absolute;
+}
+
+#rodape1>a{
+    font-family: "pacman";
+    text-decoration: none;
+    color: var(--corPrin);
+    padding-top:10px;
     
 }
 
@@ -76,6 +93,7 @@ i{
     text-decoration: none;
     color: var(--corPrin);
     padding-top:10px;
+    
 }
 
 #search{
@@ -185,6 +203,7 @@ i{
     height: 90px;
     border-radius: 5px;
     padding: 5px;
+    margin-top: 50px;
 }
 #chave>h3{
     text-decoration: underline;
@@ -199,7 +218,7 @@ i{
     background-color: #8080808a;
     width: 325px;
     margin: auto;
-    height: 100%;
+    height: 300px;
     padding: 10px;
 }
 #gerachave{
