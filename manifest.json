@@ -14,6 +14,11 @@
       {
         "src": "https://senac-ti19.github.io/Ecomercer-jogos-Wesley-/icon/favicon.ico",
         "type": "image/x-icon"
+      },
+      {
+        "src": "img/favicon-512x512.png",
+        "type": "image/png",
+        "sizes": "512x512"
       }
     ],
     "shortcuts": []

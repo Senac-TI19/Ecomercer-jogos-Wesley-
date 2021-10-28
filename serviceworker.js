@@ -14,6 +14,7 @@ const recursosChacheados = [
     "./img/pacman.jpg",
     "./img/pacman.gif",
     "./img/tijolos.jpg",
+    "./img/favicon-512x512.png",
     "./icon/favicon.ico",
     "./fonts/Gameplay.ttf"
 ]
