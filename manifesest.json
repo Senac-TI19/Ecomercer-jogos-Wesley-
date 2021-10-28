@@ -5,7 +5,6 @@
     "display": "standalone",
     "name": "senac-ti19.github",
     "orientation": "any",
-    "scope": "/",
     "short_name": "senac-ti19.github",
     "start_url": "./",
     "theme_color": "#ffca02",
